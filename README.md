@@ -1,4 +1,3 @@
-```markdown
 # WeathApp
 
 WeathApp is a simple weather application that provides current weather information, city details, and a map view for various cities. It uses the OpenWeatherMap API to fetch weather data and the MapTiler API for map rendering. The application also includes custom city name translations for a few specific cities.
