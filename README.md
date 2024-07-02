@@ -59,7 +59,7 @@ The application includes custom translations for the following cities:
 - Lod = Al Lydd (اللد)
 - Hebron = Al Khalil (الخليل)
 
-You can also search for these cities using their alternative names or in Arabic.
+You can also search for these cities in Arabic.
 
 ## Contributing
 
