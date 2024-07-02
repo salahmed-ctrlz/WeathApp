@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeathApp</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Link Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+<div class="card">
+    <div class="search">
+        <form id="searchForm">
+            <input type="text" id="cityInput" placeholder="Enter a city name" spellcheck="false">
+            <button type="submit"><img src="images/search.png"></button>
+        </form>
+    </div>  
+    <div class="error">
+        <p id="errorMessage">Invalid City Name!</p>
+    </div>
+    <div class="weather">
+        <img src="images/rain.png" class="weather-icon">
+        <h1 class="temp">22°C</h1>
+        <h2 class="city">Annaba</h2>
+        <div class="details">
+            <div class="col">
+                <img src="images/humidity.png">
+                <div>
+                    <p class="humidity">50%</p>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <img src="images/wind.png">
+                <div>
+                    <p class="wind">15 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="city-info" id="cityInfo">
+        <h3>City Info</h3>
+        <ul>
+            <li><strong>Population: N/A</strong> <span id="population"></span></li>
+            <li><strong>Area: N/A</strong> <span id="area"></span></li>
+            <li><strong>Country:</strong> <span id="country"></span></li>
+        </ul>
+    </div>
+    <div class="city-map" id="cityMap">
+        <h3>City Map</h3>
+        <div id="map"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

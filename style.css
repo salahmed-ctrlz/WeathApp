@@ -1,0 +1,214 @@
+/* Reset styles and Google Fonts inclusion */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #001F3F, #228B22, #C0C0C0, #cc00cc);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    height: 100vh;
+    margin: 0;
+    color: #ffff;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: #ffff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition */
+}
+
+.search button:hover{
+    transform: scale(1.1); /* Added hover scaling effect */
+    opacity: 0.8; /* Lower opacity on hover */
+}
+
+.search button img {
+    width: 16px;
+}
+
+.city {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition */
+}
+
+.city:hover {
+    transform: scale(1.1); /* Added hover scaling effect */
+    opacity: 0.8; /* Lower opacity on hover */
+}
+
+.weather-icon {
+    width: 100px;
+    margin-top: 30px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition */
+}
+
+.weather-icon:hover {
+    transform: translateY(-5px); /* Added hover lift effect */
+    opacity: 0.8; /* Lower opacity on hover */
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition */
+}
+
+.weather h1:hover {
+    transform: scale(1.1); /* Added hover scaling effect */
+    opacity: 0.8; /* Lower opacity on hover */
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition */
+}
+
+.weather h2:hover {
+    transform: scale(1.1); /* Added hover scaling effect */
+    opacity: 0.8; /* Lower opacity on hover */
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Added transition */
+}
+
+.col:hover {
+    transform: scale(1.1); /* Added hover scaling effect */
+    opacity: 0.8; /* Lower opacity on hover */
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: red; /* Adjust color for error message */
+}
+
+.city-info, .city-map {
+    display: none;
+    margin-top: 30px;
+}
+
+.city-info h3, .city-map h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.city-info ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.city-info ul li {
+    margin-bottom: 10px;
+}
+
+#map {
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffff;
+    font-family: 'Poppins', sans-serif;
+}
