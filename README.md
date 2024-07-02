@@ -43,7 +43,7 @@ WeathApp is a simple weather application that provides current weather informati
 2. The application will display the current weather information, city details, and a map view.
 3. You can search for cities using alternative names provided in the application.
 
-## Custom City Translations
+## Custom City Translations (You know Why) 
 
 The application includes custom translations for the following cities:
 - Jerusalem = Al-Quds (القدس)
@@ -59,7 +59,7 @@ The application includes custom translations for the following cities:
 - Lod = Al Lydd (اللد)
 - Hebron = Al Khalil (الخليل)
 
-You can also search for these cities using their alternative names.
+You can also search for these cities using their alternative names or in Arabic.
 
 ## Contributing
 
