@@ -74,5 +74,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 - [OpenWeatherMap](https://openweathermap.org/api)
 - [MapTiler](https://www.maptiler.com/)
 ```
-
-Feel free to customize this `README.md` file further to match your project's specific details and preferences.
