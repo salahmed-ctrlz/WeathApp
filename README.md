@@ -76,4 +76,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Checkout here : https://salahmed-ctrlz.github.io/WeathApp/
 
+Preview Here : https://salahmed-ctrlz.github.io/WeathApp/
 ``` 
